@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Aniversário da Luna Maiter 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎉 Aniversário da Luna Maiter 🎉</h1>
+  <p>Você é nosso convidado especial!</p>
+</header>
+
+<section class="container">
+  <h2>📅 Informações do Evento</h2>
+  <p><strong>Data:</strong> 20 de Abril</p>
+  <p><strong>Horário:</strong> 16h</p>
+  <p><strong>Local:</strong> A definir</p>
+</section>
+
+<section class="container">
+  <h2>🎁 Sugestão de Presentes</h2>
+  <ul>
+    <li>Brinquedos educativos</li>
+    <li>Livros infantis</li>
+    <li>Roupinhas (idade X anos)</li>
+    <li>Material de desenho</li>
+  </ul>
+</section>
+
+<section class="container">
+  <h2>📋 Lista de Convidados</h2>
+  <ul id="listaConvidados"></ul>
+
+  <input type="text" id="nomeConvidado" placeholder="Nome do convidado">
+  <button onclick="adicionarConvidado()">Adicionar</button>
+</section>
+
+<section class="container">
+  <h2>✅ Confirmação de Presença</h2>
+
+  <input type="text" id="nomeRsvp" placeholder="Seu nome">
+  <select id="presenca">
+    <option value="Sim">Confirmo presença 🎉</option>
+    <option value="Não">Não poderei ir 😢</option>
+  </select>
+  <button onclick="confirmarPresenca()">Confirmar</button>
+
+  <ul id="listaRsvp"></ul>
+</section>
+
+<footer>
+  <p>Com carinho 💖 Família da Luna Maiter</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
